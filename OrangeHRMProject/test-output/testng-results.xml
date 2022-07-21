@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-21T00:07:42 IST" name="Default suite" finished-at="2022-07-21T00:08:28 IST" duration-ms="45467">
+    <groups>
+    </groups>
+    <test started-at="2022-07-21T00:07:42 IST" name="Default test" finished-at="2022-07-21T00:08:28 IST" duration-ms="45467">
+      <class name="OrangeHRM.Login">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:OrangeHRM.Login@441772e]" started-at="2022-07-21T00:07:42 IST" name="setUp" finished-at="2022-07-21T00:08:02 IST" duration-ms="19927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginSetup(java.lang.String,java.lang.String,int)[pri:0, instance:OrangeHRM.Login@441772e]" started-at="2022-07-21T00:08:03 IST" name="loginSetup" data-provider="dp" finished-at="2022-07-21T00:08:17 IST" duration-ms="14463" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="loginSetup(java.lang.String,java.lang.String,int)[pri:0, instance:OrangeHRM.Login@441772e]" started-at="2022-07-21T00:08:17 IST" name="loginSetup" data-provider="dp" finished-at="2022-07-21T00:08:22 IST" duration-ms="5111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vineet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mean]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="loginSetup(java.lang.String,java.lang.String,int)[pri:0, instance:OrangeHRM.Login@441772e]" started-at="2022-07-21T00:08:22 IST" name="loginSetup" data-provider="dp" finished-at="2022-07-21T00:08:27 IST" duration-ms="4711" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Miraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SDET]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method is-config="true" signature="closing()[pri:0, instance:OrangeHRM.Login@441772e]" started-at="2022-07-21T00:08:27 IST" name="closing" finished-at="2022-07-21T00:08:28 IST" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- OrangeHRM.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
